@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Londrina+Solid:wght@100&family=Permanent+Marker&family=Staatliches&display=swap');
+/* VARIAVEIS DE FONTES*/
+:root{
+    --font1:Capriola;
+}
+
+/*ZERANDO AS MARGINS E PADDINS PADRÃO DOS NAVEGADORES*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*ESTILIZANDO TODO O CORPO DO PROJETO*/
+body {
+    font-family: var(--font1);
+    background-image: linear-gradient(to left, #262626, #5A6469, #262626);   
+}
+
+/*ESTLIZANDO O CABEÇALHO*/
+header{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.377);
+    color: white;
+    height: 100px;
+    display: flex;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+/*ESTLIZANDO OS ELEMENTOS DE NAVEGAÇÃO*/
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/*ESTLIZANDO AS SEÇÕES*/
+section {
+    width: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.text h1{
+    padding-top: 150px;
+}
