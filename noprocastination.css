@@ -1,124 +1,27 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+
 @import url('https://fonts.googleapis.com/css2?family=Capriola&family=Londrina+Solid:wght@100&family=Permanent+Marker&family=Staatliches&display=swap');
+
+
 /* VARIAVEIS DE FONTES*/
 :root{
     --font1:Capriola;
 }
 
-/*ZERANDO AS MARGINS E PADDINS PADRÃO DOS NAVEGADORES*/
 *{
     margin: 0;
     padding: 0;
+    
 }
 
-/*ESTILIZANDO TODO O CORPO DO PROJETO*/
-body {
-    font-family: var(--font1);
-    background-color: black; 
+body{
+    background-color: black;
 }
 
-/*ESTLIZANDO O CABEÇALHO*/
-header{
-    border-bottom: 2px solid rgba(255, 255, 255, 0.377);
-    color: #F4CA05;
-    height: 100px;
-    display: flex;
-}
-
-a{
-    color: #F4CA05;
-    text-decoration: none;
-}
-/*ESTLIZANDO OS ELEMENTOS DE NAVEGAÇÃO*/
-nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-nav a:hover {
-    color: #ac8d07;
-}
-
-fieldset{
-    border-color: #F4CA05;
-}
-
-.pesquisa{
-    width: 230px;
-    height: 30px;
-}
-
-.submit{
-    background-color: #F4CA05;
-    width: 80px;
-    height:30px;
-    color: black;
-    font-weight: bolder;
-    font-size: 1rem;
-}
-
-.submit:hover{
-    background-color: #c4a10a;
-}
-/*ESTLIZANDO AS SEÇÕES*/
-
-.corpo {
-    display: flex;
-    flex-direction: column;
-    width: 700px;
-    margin: auto;
-    height: 600px;
-    background-color: #F4CA05;
-    margin-top: 30px;
-    border-radius: 15px;
-}
-
-.sectvideo {
-    display: flex;
-    justify-content: space-around;
-    height: 315px;
-    width: 700px;
-    border-radius: 15px 15px 0px 0px;
-    background-image: url('images/download\ \(3\).jpg');
-    background-position: center center;
-}
-
-.secttext{
-    display: flex;
-    justify-content: center;
-}
-.text{
-    display: flex;
-    flex-direction: column;
-    color: black;
-    font-size: 1.1em;
-    font-family:  Georgia, 'Times New Roman', Times, serif;
-
-}
-
-.text h1{
-    padding-top: 70px;
-}
-
-/* COMEÇANDO A MEXER NOS VIDEOS*/
-
-.audio1{
-    display: flex;
-    width: 670px;
-    justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 20px;
-}
-
-
-/*footer */
-
-footer{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
+.corpo{
+    width: 500px;
+    background-color: aqua;
 }
 
 
