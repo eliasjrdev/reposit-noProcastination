@@ -17,17 +17,19 @@ body{
     background-color: black;
     display: flex;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .corpo{
-    width: 50vw;
-    height: 90vh;
+    width: 800px;
+    height: 600px;
     background-color: rgb(240, 240, 24);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 20px;
     align-items: center;
+    
 }
 
 nav{
@@ -39,10 +41,70 @@ nav{
     width: 100%;
 }
 
+h1{
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733);
+}
+
+#busca{
+    height: 25px;
+    padding: 5px;
+}
+
+input{
+    padding: 3px;
+    font-weight: bolder;
+    margin-left: -2px;
+    margin-right: 0;
+}
+
+a{
+    font-size: 1.3em;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+
 .sectplayer{
-    border: 3px solid white;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.507);
     width: 70%;
     height: 50%;
 }
+
+i{
+    padding-right: 10px;
+    
+}
+
+.sectplayer{
+    background-image: url(images/457d959168f4750cd240aaf4a1cb44f4df20bd85_hq.gif);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+h2{
+    text-shadow:1px 1px 1px rgba(255, 255, 255, 0.733);
+}
+
+h3{
+    padding: 10px;
+    color: yellow;
+}
+
+h4{
+    padding: 10px;
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+
+
+
 
 
