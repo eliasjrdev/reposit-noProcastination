@@ -41,63 +41,42 @@ nav{
     width: 100%;
 }
 
+nav input{
+    height: 25px;
+    padding-left: 10px;
+}
+
+nav a{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;  
+}
+
+nav button{
+    color: white;
+    font-size: 1em;
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: -25px;
+}
+
+nav button:hover{
+    background-color: rgb(29, 27, 27);
+}
+
 h1{
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733);
-}
-
-#busca{
-    height: 25px;
-    padding: 5px;
-}
-
-input{
-    padding: 3px;
-    font-weight: bolder;
-    margin-left: -2px;
-    margin-right: 0;
-}
-
-a{
-    font-size: 1.3em;
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-a:hover{
-    text-decoration: underline;
-    
-}
-
-.sectplayer{
-    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.507);
-    width: 70%;
-    height: 50%;
 }
 
 i{
     padding-right: 10px;
     
-}
-
-.sectplayer{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    justify-content: space-around;
-}
-
-.sectplayer input{
-    padding: 10px;
-    background-color: black;
-    color: yellow;
-    font-size: 2em;
-    text-shadow:1px 1px 1px rgba(255, 255, 255, 0.733);
-    border-radius: 8px;
-}
-
-.sectplayer input:hover{
-    background-color: rgb(14, 13, 13);
 }
 
 h2{
@@ -125,6 +104,43 @@ h4{
     color: yellow;
     font-size: 1.5rem;
 }
+
+.sectplayer button{
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 1.3em;
+    background-color: black;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+}
+
+.sectplayer button:hover{
+    background-color: rgb(19, 17, 17);
+}
+
+.sectplayer a{
+    width: 60%;
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.sectplayer{
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.507);
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 
 
