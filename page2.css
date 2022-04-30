@@ -48,7 +48,7 @@ div{
     align-items: center;
 }
 
-div button{
+.botoes a{
     width: 50%;
     height: 12%;
     color: white;
@@ -57,10 +57,21 @@ div button{
     border-radius: 5px;
     text-shadow: 2px 2px 2px rgba(255, 255, 0, 0.384);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+    position: relative;
 }
 
-div button:hover {
+.botoes a:hover {
     background-color: rgba(15, 14, 14, 0.87);
+}
+
+.botoes a button{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
 }
 
 
