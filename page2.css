@@ -60,8 +60,8 @@ div{
     position: relative;
 }
 
-.botoes a:hover {
-    background-color: rgba(15, 14, 14, 0.87);
+.botoes button:hover {
+    background-color: rgba(39, 36, 36, 0.87);
 }
 
 .botoes a button{
