@@ -1,19 +1,25 @@
-const bg = document.querySelector('.sectplayer .imgbg');
-const tit = document.querySelector('.titart h5');
-const art = document.querySelector('.titart p');
-const aud = document.querySelector('.titart audio');
 
-const data = {
-    title: "Childish Gambino - Redbone __ Guitar Loop Cover",
-    artist: "Desconhecido",
-    cover: "images/img1.gif",
-    file: "audio/Childish Gambino - Redbone __ Guitar Loop Cover.mp3"
+ const reproduce = {
+    bg: document.querySelector('.sectplayer .imgbg'),
+    tit: document.querySelector('.titart h5'),
+    art: document.querySelector('.titart p'),
+    aud: document.querySelector('.titart audio'),
+
+     data: {
+        title: "Childish Gambino - Redbone __ Guitar Loop Cover",
+        artist: "Desconhecido",
+        cover: "images/img1.gif",
+        file: "audio/Childish Gambino - Redbone __ Guitar Loop Cover.mp3"
+    },
+
+    start(){
+        this.bg.style.background = `url('${this.data.cover}') center center`;
+        this.tit.innerHTML = this.data.title;
+        this.art.innerHTML = `<i class="fa-solid fa-user"></i>${this.data.artist}`;
+        this.aud.src = this.data.file; 
+    }
 };
 
-bg.style.background = `url('${data.cover}') center center`
 
-tit.innerHTML = data.title;
+reproduce.start();
 
-art.innerHTML = `<i class="fa-solid fa-user"></i>${data.artist}`
-
-aud.src = data.file
