@@ -1,21 +1,21 @@
 window.audios = [
     {
       title:
-        "Childish Gambino - Redbone __ Guitar Loop Cover",
+        "Ana Gabriela - Céu Azul (Áudio Oficial)",
       artist: "Desconhecido",
       cover: "img1.gif",
-      file: "Childish Gambino - Redbone __ Guitar Loop Cover.mp3"
+      file: "Ana Gabriela - Céu Azul (Áudio Oficial).mp3"
     },
     {
-      title: "HOPE __ Ruben Wan (Original)",
+      title: "Future Funk",
       artist: "Hope",
       cover: "img2.gif",
-      file: "HOPE __ Ruben Wan (Original).mp3"
+      file: "Future Funk.mp3"
     },
     {
-      title: "I Want it that Way - Mateus Asato Live in Manila 2019",
+      title: "Happy Sad _ Ruben Wan (Original).mp3",
       artist: "Desconhecido",
       cover: "img3.jpg",
-      file: "I Want it that Way - Mateus Asato Live in Manila 2019.mp3"
+      file: "Happy Sad _ Ruben Wan (Original).mp3"
     }
   ];
