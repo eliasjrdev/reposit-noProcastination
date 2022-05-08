@@ -40,7 +40,7 @@ nav{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     border-bottom: 3px solid;
     width: 100%;
 }
@@ -88,20 +88,6 @@ h2{
     font-size: 2em;
 }
 
-.cabecalho h3{
-    color: black;
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
-    font-size: 1.5em;
-    text-shadow:1px 1px 1px rgba(255, 255, 255, 0.733);
-    padding: 12px;
-}
-
-h3{
-    padding: 10px;
-    color: yellow;
-}
 
 h4{
     padding: 10px;

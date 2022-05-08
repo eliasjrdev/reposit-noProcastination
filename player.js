@@ -5,19 +5,31 @@ window.reproduce = {
     aud: document.querySelector('.titart audio'),
      audioData: audios,
      currentAudio: {},
+     currentPlaying: 0,
 
     start(){
+        this.update();
+        this.aud.onended = () => this.next();
+    },
 
-        this.currentAudio = this.audioData[0];
+    next(){
+        this.currentPlaying++
 
+        if(this.currentPlaying == this.audioData.length) this.restart();
+        this.update();
+        this.aud.play();
+    },
+
+    update(){
+        this.currentAudio = this.audioData[this.currentPlaying];
         this.bg.style.background = `url('${path(this.currentAudio.cover)}') no-repeat center center / cover `;
         this.tit.innerHTML = this.currentAudio.title;
         this.art.innerHTML = `<i class="fa-solid fa-user"></i>${this.currentAudio.artist}`;
-        this.aud.src = path(this.currentAudio.file); 
+        this.aud.src = path(this.currentAudio.file);
+    },
 
-        this.aud.addEventListener("ended", () => {
-           this.aud.src = path(this.audioData[1].file) 
-           this.aud.play();
-        })
+    restart(){
+        this.currentPlaying = 0;
+        this.update();
     }
 };
