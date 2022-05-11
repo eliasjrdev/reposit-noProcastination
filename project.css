@@ -22,6 +22,31 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.botaovoltar{
+
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    padding: 11px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 24);
+    border-radius: 50%;
+}
+
+.botaovoltar:hover{
+    background-color: rgb(204, 204, 4);  
+
+}
+
+.botaovoltar i{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-left: 5px;
+}
+
 .corpo{
     width: 800px;
     height: 600px;
