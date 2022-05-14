@@ -7,12 +7,6 @@ window.audios = [
       file: "Ana Gabriela - Céu Azul (Áudio Oficial).mp3"
     },
     {
-      title: "_TOP 5_ - Kiesel Solo Contest 2017 - Leticia Filizzola",
-      artist: "Leticia Filizzol",
-      cover: "img16.webp",
-      file: "_TOP 5_ - Kiesel Solo Contest 2017 - Leticia Filizzola.mp3"
-    },
-    {
       title: "Future Funk",
       artist: "Hope",
       cover: "img12.gif",
