@@ -1,7 +1,6 @@
 window.audios = [
     {
-      title:
-        "Ana Gabriela - Céu Azul (Áudio Oficial)",
+      title:"Ana Gabriela - Céu Azul (Áudio Oficial)",
       artist: "Ana Gabriela",
       cover: "img11.gif",
       file: "Ana Gabriela - Céu Azul (Áudio Oficial).mp3"
@@ -19,10 +18,10 @@ window.audios = [
       file: "Happy Sad _ Ruben Wan (Original).mp3"
     },
     {
-      title: "_1ST PLACE_ Kiesel Guitars Solo Contest 2017 - Aryz Bulo",
+      title: "Kiesel Guitars Solo Contest 2017 - Aryz Bulo",
       artist: "Aryz Bulo",
       cover: "img18.gif",
-      file: "_1ST PLACE_ Kiesel Guitars Solo Contest 2017 - Aryz Bulo.mp3"
+      file: "Kiesel Guitars Solo Contest 2017 - Aryz Bulo.mp3"
     },
     
     {
